@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="loko.jpg">
+</head>
+<body>
+<div class="jumbotron">
+     <div class="top-content">
+             <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <b>
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h2><strong>Guvi Project </strong> Registration Form</h2>
+                            <div class="description">
+                                <p>
+                                    This is a registration form made for Guvi project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </b>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                            <div class="form-top">
+                                <div class="form-top-left">
+                                    <b><i><p class="text-warning" style="font-size: 30"><b>Register in our site</b>
+                                    </p>i></b>
+                                </div>
+                                <div class="form-top-right">
+                                    <img src="register-now.png">
+                                </div>
+                            </div>
+                            <div class="form-bottom">
+
+                                 <p style="font-size: 20"><b>Enter the following details to register yourself !!!</b>
+                                    </p>
+                         
+                                <form role="form" action="connect.php" method="post" class="Registration-form">
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Email_id">Email id</label>
+                                        <input type="text" name="form-Email_id" placeholder="Email id..."
+                                         class="form-Email_id form-control" id="form-Email_id">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-First_Name">First Name</label>
+                                        <input type="text" name="form-First_Name" placeholder="First Name..." class="form-First_Name form-control" id="form-First_Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Last_Name">Last Name</label>
+                                        <input type="text" name="form-Last_Name" placeholder="Last Name..." class="form-Last_Name form-control" id="form-Last_Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Password">Password</label>
+                                        <input type="password" name="form-Password" placeholder="Password..." class="form-Password form-control" id="form-Password">
+                                    <p>
+                                    </p>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Confirm_Password">Confirm Password
+                                        </label>
+                                        <input type="password" name="form-Confirm_Password" placeholder=" Confirm Password..." class="form-Confirm_Password form-control" id="form-Confirm_Password">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Age">Age</label>
+                                        <input type="text" name="form-Age" placeholder="Age..." class="form-Age form-control" id="form-Age">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Gender">Gender</label>
+                                        <p>Gender</p>
+                                        <input type="checkbox" name="form-Gender" value="Male">   Male</input>
+                                             <input type="checkbox" name="form-Gender" value="Female">   Female</input>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Degree">Degree</label>
+                                        <input type="text" name="form-Degree" placeholder="Degree..." class="form-Degree form-control" id="form-Degree">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-Phone_No">Phone Number</label>
+                                        <input type="text" name="form-Phone_No" placeholder="Phone Number..." class="form-Phone_No form-control" id="form-Phone_No">
+                                    </div>
+
+                                     <div class="form-group">
+                                        <label class="sr-only" for="form-Address">Address</label>
+                                        <p>Contact Address</p>
+                                        <input type="text" name="form-Plot_Number" placeholder="Plot Number..." class="form-Plot_Number form-control" id="form-Plot_Number">
+                                        <p>                                                </p>
+                                        <input type="text" name="form-Street_Name" placeholder="Street Name..." class="form-Street_Name form-control" id="form-Street_Name">
+                                        <p>                                                </p>
+                                        <input type="text" name="form-City_Name" placeholder="City Name..." class="form-City_Name form-control" id="form-City_Name">
+                                        <p>                                                </p>
+                                        <input type="text" name="form-District" placeholder="District..." class="form-District form-control" id="form-District">
+                                        <p>                                                </p>
+                                        <input type="text" name="form-Pin_Code" placeholder="Pin Code..." class="form-Pin_Code form-control" id="form-Pin_Code">
+                                        <p>                                                 </p>
+                                    </div>
+                                    <button type="submit" class="btn">Register</button>
+                                    <p>                                            </p>
+                                    <center>
+                                        <p class="text-success">
+                                            <b>Login in our site</b>
+                                        </p>
+                                    </center>
+                                   <center><a href="/guvi_project/login/check.php">Sign in!</a></center>
+                               </div>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</body>
+</html>
